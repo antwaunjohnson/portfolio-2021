@@ -40,6 +40,10 @@ body.dark .contact-section textarea:focus{
     border-radius: 3px;
 }
 
+.btn.main-btn{
+    margin-top: 25;
+}
+
 .btn.main-btn:focus,
 .btn.main-btn:hover {
     border: 1px solid #004ba8;  

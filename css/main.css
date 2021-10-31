@@ -1033,7 +1033,7 @@ a {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background: #fff;
+  background: #f5dfbb;
   -webkit-transition: opacity 0.6s;
   transition: opacity 0.6s;
 }
