@@ -819,23 +819,6 @@ a {
   text-transform: uppercase;
 }
 
-/* .about-section .chart-bar {
-    display: block;
-    height: 7px;
-    position: relative;
-    width: 100%;
-    background: #e9ecef;
-    margin-bottom: 45px;
-} */
-
-.about-section .chart-bar > .item-progress {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1%;
-}
-
 .about-section .skill-icon {
   font-size: 3em;
   color: #3e78b2;
@@ -933,7 +916,7 @@ a {
 }
 
 .work-section .grid__item {
-  padding: 15px;
+  padding: 20px;
 }
 
 .work-section .grid__item a {
@@ -969,37 +952,6 @@ a {
 
 .work-section .grid__item--current {
   opacity: 0 !important;
-}
-
-.work-section .item-title-hover {
-  white-space: nowrap;
-  font-size: 21px;
-  padding: 5px 15px;
-  font-weight: 700;
-  color: #fff;
-  border-radius: 5px 5px 5px 0;
-  position: fixed;
-  z-index: 1000;
-  opacity: 0;
-  text-transform: uppercase;
-  visibility: hidden;
-}
-
-.work-section .item-title-hover .item-category {
-  position: absolute;
-  top: 100%;
-  border-radius: 0 5px 5px 5px;
-  left: 0;
-  margin-top: -10px;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  padding: 5px 15px;
-}
-
-.work-section .item-title-hover.visible {
-  opacity: 1;
-  visibility: visible;
 }
 
 /* Preview */
@@ -1411,7 +1363,6 @@ a {
   background: #f73a43;
 }
 
-
 /* [ RESPONSIVE DESIGN ] */
 
 /*================================================== */
@@ -1590,8 +1541,7 @@ a {
   .contact-section .heading h2 {
     margin-bottom: 100px;
   }
-  .about-section .infos
-  {
+  .about-section .infos {
     margin-bottom: 70px;
   }
   .about-section .resume {
