@@ -96,7 +96,7 @@ a {
   height: 100vh;
   width: 100%;
   z-index: 1111;
-  background: #383838;
+  background: #3e78b2;
   pointer-events: all;
   display: none;
   animation: slide 1.5s cubic-bezier(0.84, 0, 0.08, 0.99);
@@ -124,7 +124,7 @@ a {
   top: 0;
   width: 51%;
   height: 100%;
-  background: #383838;
+  background: #3e78b2;
   z-index: 111111;
 }
 
@@ -777,18 +777,6 @@ a {
   overflow-y: hidden;
 }
 
-.owl-carousel.visiblecarousel {
-  opacity: 1;
-  height: auto;
-  visibility: visible;
-}
-
-.owl-carousel.hiddencarousel {
-  opacity: 0;
-  height: 0;
-  visibility: hidden;
-}
-
 .owl-theme .owl-dots .owl-dot {
   outline: none;
 }
@@ -1426,12 +1414,6 @@ a {
 }
 
 @media (max-width: 767px) {
-  body.video #videobg {
-    display: none;
-  }
-  body.video .home-section .home-content:before {
-    display: none;
-  }
   .navigation-trigger {
     top: 25px;
     right: 25px;
