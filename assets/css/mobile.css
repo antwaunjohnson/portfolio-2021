@@ -1114,6 +1114,7 @@
   .service-box-item figure {
     margin: 0 auto 15px !important;
     bottom: 10px;
+    left: 0;
   }
   .portfolio-img-con .filterDiv:nth-child(2),
   .portfolio-img-con .filterDiv:nth-child(3),
@@ -1130,5 +1131,11 @@
     position: absolute;
     right: 34px;
     top: 0;
+  }
+
+  .service-box-item figure {
+    margin: 0 auto 15px !important;
+    bottom: 10px;
+    left: 0;
   }
 }
