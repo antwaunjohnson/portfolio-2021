@@ -1312,7 +1312,7 @@ i.fa-envelope,
 }
 .dynamic-txts li {
   list-style: none;
-  animation: slide 12s steps(4) infinite;
+  animation: slide 12s steps(4);
 }
 @keyframes slide {
   100% {
