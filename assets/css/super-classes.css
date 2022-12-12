@@ -1,86 +1,43 @@
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. h1
-2. h2
-3. h4
-4. h6
-5. p
-6. contact btn
-7. generic
-
--------------------------------------------------------------------*/
 :root {
-    --primary-color:#3f396d;
-    --secondary-color:#07003b;
-    --accent:#fca61f;
-    --text-color: #7d7789;
-    --off-white-color: #f0f4ff;
-    --light-purple-color:#6f34fe;
-    --white-color:#fff;
-    --light-grey-color:#f2f2ff;
-  }
-h1{
-    font-size: 85px;
-    line-height: 88px;
+  --primary-color: #fff;
+  --secondary-color: #07003b;
+  --light-purple-color: #6259a7;
+  --accent: #fca61f;
+  --text-color: #7d7789;
 }
-h2{
-    font-size: 52px;
-    line-height: 54px;
+h1 {
+  font-size: 100px;
+  line-height: 88px;
+  color: var(--primary-color);
+  font-weight: 700;
 }
-h4{
-    font-size: 26px;
-    line-height: 28px;
+h2 {
+  font-size: 52px;
+  line-height: 55px;
+  font-weight: 700;
+  color: var(--secondary-color);
 }
-h6{
-    font-size: 22px;
-    line-height: 24px;
-    color: var(--light-purple-color);
+h4 {
+  font-size: 26px;
+  line-height: 55px;
+  font-weight: 700;
+  color: var(--secondary-color);
 }
-p{
-    font-size: 22px;
-    line-height: 33px;
+h5 {
+  color: var(--accent);
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
 }
-.contact a{
-    background: var(--accent);
-    color: var(--white-color);
-    padding: 16px 43px 15px;
-    font-size: 20px;
-    display: inline-block;
-    border-radius: 35px;
-    line-height: 20px;
-    text-decoration: none;
-    box-shadow: 0 0 85px 0 #e9eefc;
-    border: 1px solid transparent;
-    transition-duration: .3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
+p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-color);
+  font-family: "Lato", sans-serif;
 }
-.contact a:hover,
-.generic-btn a:hover{
-    border-color: var(--light-purple-color);
-    background: var(--light-purple-color);
-    transform: translateY(-8px);
+.padding-top {
+  padding-top: 140px;
 }
-
-.generic-btn a{
-    background: var(--accent);
-    color: var(--white-color);
-    padding: 20px 58px 19px;
-    font-size: 20px;
-    display: inline-block;
-    border-radius: 35px;
-    line-height: 20px;
-    text-decoration: none;
-    box-shadow: 0 0 85px 0 #e9eefc;
-    border: 1px solid transparent;
-    transition-duration: .3s;
-    transition-property: transform;
-    transition-timing-function: ease-out;
-}
-.padding-top{
-    padding-top: 130px;
-}
-.padding-bottom{
-    padding-bottom: 130px;
+.padding-bottom {
+  padding-bottom: 140px;
 }
