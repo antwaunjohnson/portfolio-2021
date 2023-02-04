@@ -329,76 +329,6 @@ ul.mb-0 {
 .service-box-item a {
   text-decoration: none;
 }
-/* #button.show {
-  opacity: 1;
-  visibility: visible;
-}
-.service-box:hover {
-  background: #6c5c94;
-  transform: translateY(-8px) !important;
-}
-.service-box:hover img {
-  filter: brightness(0) invert(1);
-}
-.service-box:hover h4,
-.service-box:hover p,
-.service-box:hover a {
-  color: var(--primary-color);
-}
-.service-box figure {
-  margin-bottom: 28px;
-}
-.service-box figure:hover {
-  transform: translateY(-8px);
-  transition-duration: 0.3s !important;
-  transition-property: transform !important;
-  transition-timing-function: ease-out !important;
-}
-.service-box h4 {
-  line-height: 28px;
-}
-.service-box p {
-  font-size: 18px;
-  line-height: 28px;
-  margin-bottom: 19px;
-}
-.service-box a {
-  text-decoration: none;
-  color: var(--accent);
-  font-size: 18px;
-}
-.service-box a:before {
-  content: "";
-  position: absolute;
-  left: -34px;
-  width: 2px;
-  height: 36px;
-  top: -9px;
-  background: var(--accent);
-}
-.service-box a:after {
-  content: "";
-  position: absolute;
-  bottom: -4px;
-  width: 0;
-  height: 2px;
-  left: 0;
-  background: var(--primary-color);
-  transition: ease-in-out 0.3s;
-}
-.service-box a:hover::after {
-  width: 100%;
-}
-.service-box:hover a:before {
-  background: var(--primary-color);
-  left: -34px;
-}
-.service-title-sec h2 {
-  margin-bottom: 37px;
-}
-.service-title-sec h5 {
-  margin-bottom: 15px;
-} */
 /*****service section*****/
 /*****about section*****/
 .about-sec {
@@ -968,7 +898,8 @@ ul.mb-0 {
   border: none;
   margin-bottom: 5px;
 }
-.form-button {
+.form-button,
+.modal-button {
   text-decoration: none;
   display: inline-block;
   padding: 19px 64px;
@@ -983,7 +914,8 @@ ul.mb-0 {
   transition-timing-function: ease-out;
   cursor: pointer;
 }
-.form-button:hover {
+.form-button:hover,
+.modal-button:hover {
   background: #f7f7f7;
   color: var(--accent);
   transform: translateY(-8px);
@@ -1437,6 +1369,7 @@ ul.mb-0 {
 .modal-header button:hover {
   opacity: 1;
 }
+
 @-webkit-keyframes mover {
   0% {
     transform: translateY(0);
